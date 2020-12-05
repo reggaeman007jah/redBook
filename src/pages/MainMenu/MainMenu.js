@@ -9,36 +9,123 @@ const HomeScreen = ({ navigation }) => {
         {/* <Text style={styles1.text2}></Text>
         <Text style={styles1.text3}></Text> */}
 
-        <Button title="Page 1" onPress={() => navigation.navigate('Page1')} />
-        <Button title="Page 2" onPress={() => navigation.navigate('Page2')} />
-        <Button title="Page 3" onPress={() => navigation.navigate('Page3')} />
-        <Button title="Page 4" onPress={() => navigation.navigate('Page4')} />
-        <Button title="Page 05" onPress={() => navigation.navigate('Page5')} />
-        <Button title="Page 06" onPress={() => navigation.navigate('Page6')} />
-        <Button title="Page 07" onPress={() => navigation.navigate('Page7')} />
-        <Button title="Page 08" onPress={() => navigation.navigate('Page8')} />
-        <Button title="Page 09" onPress={() => navigation.navigate('Page9')} />
-        <Button title="Page 10" onPress={() => navigation.navigate('Page10')} />
-        <Button title="Page 11" onPress={() => navigation.navigate('Page11')} />
-        <Button title="Page 12" onPress={() => navigation.navigate('Page12')} />
-        <Button title="Page 13" onPress={() => navigation.navigate('Page13')} />
-        <Button title="Page 14" onPress={() => navigation.navigate('Page14')} />
-        <Button title="Page 15" onPress={() => navigation.navigate('Page15')} />
-        <Button title="Page 16" onPress={() => navigation.navigate('Page16')} />
-        <Button title="Page 17" onPress={() => navigation.navigate('Page17')} />
-        <Button title="Page 18" onPress={() => navigation.navigate('Page18')} />
-        <Button title="Page 19" onPress={() => navigation.navigate('Page19')} />
-        <Button title="Page 20" onPress={() => navigation.navigate('Page20')} />
-        <Button title="Page 21" onPress={() => navigation.navigate('Page21')} />
-        <Button title="Page 22" onPress={() => navigation.navigate('Page22')} />
-        <Button title="Page 23" onPress={() => navigation.navigate('Page23')} />
-        <Button title="Page 24" onPress={() => navigation.navigate('Page24')} />
-        <Button title="Page 25" onPress={() => navigation.navigate('Page25')} />
-        <Button title="Page 26" onPress={() => navigation.navigate('Page26')} />
-        <Button title="Page 27" onPress={() => navigation.navigate('Page27')} />
-        <Button title="Page 28" onPress={() => navigation.navigate('Page28')} />
-        <Button title="Page 29" onPress={() => navigation.navigate('Page29')} />
-        <Button title="Page 30" onPress={() => navigation.navigate('Page30')} />
+        <Button
+          title="Key Questions"
+          onPress={() => navigation.navigate('Page1')}
+        />
+        <Button title="Foreward" onPress={() => navigation.navigate('Page2')} />
+        <Button
+          title="Purpose of this Code of Practice"
+          onPress={() => navigation.navigate('Page3')}
+        />
+        <Button
+          title="Application of the Code"
+          onPress={() => navigation.navigate('Page4')}
+        />
+        <Button
+          title="Legal status of the Code"
+          onPress={() => navigation.navigate('Page5')}
+        />
+        <Button
+          title="Other obligations not covered by this Code"
+          onPress={() => navigation.navigate('Page6')}
+        />
+        <Button
+          title="Record keeping"
+          onPress={() => navigation.navigate('Page7')}
+        />
+        <Button
+          title="Part 1: Basic principles"
+          onPress={() => navigation.navigate('Page8')}
+        />
+        <Button
+          title="Using this Code"
+          onPress={() => navigation.navigate('Page9')}
+        />
+        <Button
+          title="Responsibilities"
+          onPress={() => navigation.navigate('Page10')}
+        />
+        <Button
+          title="Training and competence"
+          onPress={() => navigation.navigate('Page11')}
+        />
+        <Button
+          title="Planning"
+          onPress={() => navigation.navigate('Page12')}
+        />
+        <Button
+          title="Risk assessment"
+          onPress={() => navigation.navigate('Page13')}
+        />
+        <Button
+          title="Part 2: Operations"
+          onPress={() => navigation.navigate('Page14')}
+        />
+        <Button
+          title="Before going to site"
+          onPress={() => navigation.navigate('Page15')}
+        />
+        <Button
+          title="Works instructions"
+          onPress={() => navigation.navigate('Page16')}
+        />
+        <Button
+          title="Equipment"
+          onPress={() => navigation.navigate('Page17')}
+        />
+        <Button
+          title="At the work site"
+          onPress={() => navigation.navigate('Page18')}
+        />
+        <Button
+          title="Before you start"
+          onPress={() => navigation.navigate('Page19')}
+        />
+        <Button
+          title="Arriving on site"
+          onPress={() => navigation.navigate('Page20')}
+        />
+        <Button
+          title="Advance signing"
+          onPress={() => navigation.navigate('Page21')}
+        />
+        <Button
+          title="Coned area"
+          onPress={() => navigation.navigate('Page22')}
+        />
+        <Button
+          title="Information board"
+          onPress={() => navigation.navigate('Page23')}
+        />
+        <Button
+          title="End sign"
+          onPress={() => navigation.navigate('Page24')}
+        />
+        <Button
+          title="Variable message signs"
+          onPress={() => navigation.navigate('Page25')}
+        />
+        <Button
+          title="Setting out the works"
+          onPress={() => navigation.navigate('Page26')}
+        />
+        <Button
+          title="Sequence for setting out signs"
+          onPress={() => navigation.navigate('Page27')}
+        />
+        <Button
+          title="Footway and footpath works – look after pedestrians"
+          onPress={() => navigation.navigate('Page28')}
+        />
+        <Button
+          title="Cycle routes – look after cyclists"
+          onPress={() => navigation.navigate('Page29')}
+        />
+        <Button
+          title="Equestrian routes – look after horse riders"
+          onPress={() => navigation.navigate('Page30')}
+        />
         <Button title="Page 31" onPress={() => navigation.navigate('Page31')} />
         <Button title="Page 32" onPress={() => navigation.navigate('Page31')} />
         <Button title="Page 33" onPress={() => navigation.navigate('Page33')} />

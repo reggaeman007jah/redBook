@@ -8,10 +8,10 @@ const HomeScreen = ({ navigation }) => {
         <Text style={styles1.text}>Safety at Street Works and Road Works </Text>
         <Text style={styles1.text2}>A Code of Practice</Text>
         <Text style={styles1.text3}>October 2013</Text>
-        <Button
+        {/* <Button
           title="Contents"
           onPress={() => navigation.navigate('IntroPage1')}
-        />
+        /> */}
         <Text style={styles1.text4}>
           This Code of Practice is issued by the Secretary of State for
           Transport and Welsh Ministers under section 65 of the New Roads and
@@ -22,25 +22,25 @@ const HomeScreen = ({ navigation }) => {
           the Road Traffic Regulation Order (Northern Ireland) 1997.
         </Text>
         <Button
-          title="Introduction"
-          onPress={() => navigation.navigate('IntroPage1')}
+          title="Main Menu"
+          onPress={() => navigation.navigate('MainMenu')}
         />
         <Button
-          title="Part 1: Basic principles"
-          onPress={() => navigation.navigate('Part1Menu')}
+          title="Settings"
+          onPress={() => navigation.navigate('Settings')}
         />
         <Button
-          title="Part 2: Operations"
-          onPress={() => navigation.navigate('Counter')}
+          title="Contact"
+          onPress={() => navigation.navigate('Contact')}
         />
-        <Button
+        {/* <Button
           title="Part 3: Equipment and vehicles"
           onPress={() => navigation.navigate('Counter')}
         />
         <Button
           title="Additional Information"
           onPress={() => navigation.navigate('Counter')}
-        />
+        /> */}
       </ScrollView>
     </View>
   );

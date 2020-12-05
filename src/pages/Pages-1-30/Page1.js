@@ -1,53 +1,36 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
+// Key Questions
 const Page1 = ({ navigation }) => {
   return (
     <View>
       <ScrollView>
-        <Text style={styles1.text}>Safety at Street Works and Road Works </Text>
-        <Text style={styles1.text2}>A Code of Practice</Text>
-        <Text style={styles1.text3}>October 2013</Text>
-        <Button
-          title="Contents"
-          onPress={() => navigation.navigate('IntroPage1')}
-        />
-        <Text style={styles1.text4}>
-          This Code of Practice is issued by the Secretary of State for
-          Transport and Welsh Ministers under section 65 of the New Roads and
-          Street Works Act 1991 (NRSWA) and section 174 of the Highways Act
-          1980, by Scottish Ministers under section 124 of the NRSWA, and by the
-          Department for Regional Development (Northern Ireland) under article
-          25 of the Street Works (Northern Ireland) Order 1995 and Article 31 of
-          the Road Traffic Regulation Order (Northern Ireland) 1997.
+        <Text style={styles.text1}>Key Questions </Text>
+        <Text style={styles.text2}>Ask yourself these questions:</Text>
+        <Text style={styles.text2}>
+          Will someone using the road or footway from any direction understand
+          exactly what is happening and what is expected of them?
+        </Text>
+        <Text style={styles.text2}>
+          Have I made the site safe to work in and for the general public?
         </Text>
         <Button
-          title="Introduction"
-          onPress={() => navigation.navigate('IntroPage1')}
+          title="Previous"
+          onPress={() => navigation.navigate('MainMenu')}
         />
+        <Button title="Next" onPress={() => navigation.navigate('Page2')} />
         <Button
-          title="Part 1: Basic principles"
-          onPress={() => navigation.navigate('Part1Menu')}
-        />
-        <Button
-          title="Part 2: Operations"
-          onPress={() => navigation.navigate('Counter')}
-        />
-        <Button
-          title="Part 3: Equipment and vehicles"
-          onPress={() => navigation.navigate('Counter')}
-        />
-        <Button
-          title="Additional Information"
-          onPress={() => navigation.navigate('Counter')}
+          title="Home"
+          onPress={() => navigation.navigate('HomeScreen')}
         />
       </ScrollView>
     </View>
   );
 };
 
-const styles1 = StyleSheet.create({
-  text: {
+const styles = StyleSheet.create({
+  text1: {
     fontSize: 50,
     margin: 20,
   },

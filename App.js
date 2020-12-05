@@ -1,33 +1,7 @@
-// import { StatusBar } from 'expo-status-bar';
-// import React from 'react';
-// import { StyleSheet, Text, View } from 'react-native';
-
-// export default function App() {
-//   return (
-//     <View style={styles.container}>
-//       <Text>Red Book</Text>
-//       <StatusBar style="auto" />
-//     </View>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
-
-//
 import React from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-// import { createStackNavigator, createAppContainer } from 'react-navigation-stack';
 
-// import SearchScreen from './src/screens/SearchScreen';
-// import ResultsShowScreen from './src/screens/ResultsShowScreen';
 import HomeScreen from './src/pages/Home/HomeScreen';
 import IntroPage1 from './src/pages/Intro/IntroPage1';
 import Part1Menu from './src/pages/Part1/Part1Menu';
@@ -51,8 +25,8 @@ const navigator = createStackNavigator(
   {
     initialRouteName: 'HomeScreen',
     defaultNavigationOptions: {
-      title: 'Welcome'
-    }
+      title: 'Welcome',
+    },
   }
 );
 

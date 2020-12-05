@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
-const HomeScreen = ({ navigation }) => {
+const Page1 = ({ navigation }) => {
   return (
     <View>
       <ScrollView>
@@ -54,7 +54,6 @@ const styles1 = StyleSheet.create({
   text2: {
     fontSize: 30,
     margin: 20,
-    // marginBottom: 50,
   },
   text3: {
     fontSize: 20,
@@ -68,4 +67,4 @@ const styles1 = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export default Page1;

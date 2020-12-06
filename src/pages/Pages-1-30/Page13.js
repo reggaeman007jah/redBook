@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
-// Key Questions
+// Risk assessment
 const Page13 = ({ navigation }) => {
   return (
     <View>

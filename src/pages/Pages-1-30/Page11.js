@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
-// Key Questions
+// Training and competence
 const Page11 = ({ navigation }) => {
   return (
     <View>

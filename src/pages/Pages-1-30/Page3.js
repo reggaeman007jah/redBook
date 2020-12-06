@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
-// Key Questions
+// Purpose of this Code of Practice
 const Page3 = ({ navigation }) => {
   return (
     <View>

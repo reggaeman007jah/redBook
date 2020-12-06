@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
-// Key Questions
+// Application of the Code
 const Page4 = ({ navigation }) => {
   return (
     <View>

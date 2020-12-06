@@ -13,7 +13,8 @@ const HomeScreen = ({ navigation }) => {
           title="Key Questions"
           onPress={() => navigation.navigate('Page1')}
         />
-        <Button title="Foreward" onPress={() => navigation.navigate('Page2')} />
+        {/* <Button title="Foreward" onPress={() => navigation.navigate('Page2')} /> */}
+        <Text style={styles1.text2}>Foreward</Text>
         <Button
           title="Purpose of this Code of Practice"
           onPress={() => navigation.navigate('Page3')}
@@ -34,10 +35,11 @@ const HomeScreen = ({ navigation }) => {
           title="Record keeping"
           onPress={() => navigation.navigate('Page7')}
         />
-        <Button
+        {/* <Button
           title="Part 1: Basic principles"
           onPress={() => navigation.navigate('Page8')}
-        />
+        /> */}
+        <Text style={styles1.text2}>Part 1: Basic principles</Text>
         <Button
           title="Using this Code"
           onPress={() => navigation.navigate('Page9')}
@@ -58,14 +60,16 @@ const HomeScreen = ({ navigation }) => {
           title="Risk assessment"
           onPress={() => navigation.navigate('Page13')}
         />
-        <Button
+        {/* <Button
           title="Part 2: Operations"
           onPress={() => navigation.navigate('Page14')}
-        />
-        <Button
+        /> */}
+        <Text style={styles1.text2}>Part 2: Operations</Text>
+        {/* <Button
           title="Before going to site"
           onPress={() => navigation.navigate('Page15')}
-        />
+        /> */}
+        <Text style={styles1.text3}>Before going to site</Text>
         <Button
           title="Works instructions"
           onPress={() => navigation.navigate('Page16')}
@@ -74,10 +78,11 @@ const HomeScreen = ({ navigation }) => {
           title="Equipment"
           onPress={() => navigation.navigate('Page17')}
         />
-        <Button
+        {/* <Button
           title="At the work site"
           onPress={() => navigation.navigate('Page18')}
-        />
+        /> */}
+        <Text style={styles1.text3}>At the work site</Text>
         <Button
           title="Before you start"
           onPress={() => navigation.navigate('Page19')}

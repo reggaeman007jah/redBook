@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
-// Key Questions
+// Other obligations not covered by this Code
 const Page6 = ({ navigation }) => {
   return (
     <View>

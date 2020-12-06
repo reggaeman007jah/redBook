@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
-// Key Questions
+// Works instructions
 const Page16 = ({ navigation }) => {
   return (
     <View>
@@ -10,10 +10,10 @@ const Page16 = ({ navigation }) => {
 
         <Text style={styles.text3}>
           When you receive a work instruction, look for the information relating
-          to the proposed type of work as well as the road conditions, such as:{' '}
+          to the proposed type of work as well as the road conditions, such as:
         </Text>
         <Text style={styles.text3}>
-          the type and classification of the road;{' '}
+          the type and classification of the road;
         </Text>
         <Text style={styles.text3}>the road width; </Text>
         <Text style={styles.text3}>the size and shape of the site; </Text>
@@ -30,7 +30,7 @@ const Page16 = ({ navigation }) => {
           would affect the temporary traffic management, for example approval
           for portable traffic signals, temporary traffic regulation orders, or
           permit condition details, where relevant. If in doubt, ask your
-          supervisor, manager or other competent person.{' '}
+          supervisor, manager or other competent person.
         </Text>
         <Text style={styles.text3}>
           From this information you will be able to decide what signs and

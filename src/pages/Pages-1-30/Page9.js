@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button, ScrollView } from 'react-native';
 
-// Key Questions
+// Using this Code
 const Page9 = ({ navigation }) => {
   return (
     <View>
